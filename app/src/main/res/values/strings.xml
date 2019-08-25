@@ -3,174 +3,50 @@
 
     <string name="main_heading_text">What kind of diet would you like to learn about?</string>
 
+    <string name="name_paleo">Paleo</string>
+
+    <string name="name_vegan">Vegan</string>
+
+    <string name="name_keto">Keto</string>
+
+    <string name="name_dukan">Dukan</string>
+
+    <string name="name_hcg">HCG</string>
+
+    <string name="name_zone">Zone</string>
+
     <string name="paleo_description">
-        From "Healthline.com"
-
-
-        The paleo diet claims that you should eat the same foods that your hunter-gatherer ancestors ate before agriculture developed.
-
-        The theory is that most modern diseases can be linked to the Western diet and the consumption of grains, dairy, and processed foods.
-
-        While it\'s debatable whether this diet really provides the same foods your ancestors ate, it is linked to several impressive health benefits.
-
-        How it works: The paleo diet emphasizes whole foods, lean protein, vegetables, fruits, nuts, and seeds, while discouraging processed foods, sugar, dairy, and grains.
-
-        Some more flexible versions of the paleo diet also allow for dairy like cheese and butter, as well as tubers like potatoes and sweet potatoes.
-
-        Weight loss: Several studies have shown that the paleo diet can lead to significant weight loss and reduced waist size.
-
-        In studies, paleo dieters automatically eat much fewer carbs, more protein, and 300–900 fewer calories per day.
-
-        Other benefits: The diet seems effective at reducing risk factors for heart disease, such as cholesterol, blood sugar, blood triglycerides, and blood pressure.
-
-        The downside: The paleo diet eliminates whole grains, legumes, and dairy, which are healthy and nutritious.
+        Paleo
 
     </string>
 
     <string name="vegan_description">
-        From "Healthline.com"
-
-        The vegan diet restricts all animal products for ethical, environmental, or health reasons.
-
-        Veganism is also associated with resistance to animal exploitation and cruelty.
-
-        How it works: Veganism is the strictest form of vegetarianism.
-
-        In addition to eliminating meat, it eliminates dairy, eggs, and animal-derived products, such as gelatin, honey, albumin, whey, casein, and some forms of vitamin D3.
-
-        Weight loss: A vegan diet seems to be very effective at helping people lose weight — often without counting calories — because its very low fat and high fiber content may make you feel fuller for longer.
-
-        Vegan diets are consistently linked to lower body weight and body mass index (BMI) compared to other diets.
-
-        One 18-week study showed that people on a vegan diet lost 9.3 pounds (4.2 kg) more than those on a control diet. The vegan group was allowed to eat until fullness, but the control group had to restrict calories.
-
-        However, calorie for calorie, vegan diets are not more effective for weight loss than other diets.
-
-        Weight loss on vegan diets is primarily associated with reduced calorie intake.
-
-        Other benefits: Plant-based diets are linked to a reduced risk of heart disease, type 2 diabetes, and premature death.
-
-        Limiting processed meat may also reduce your risk of Alzheimer's disease and dying from heart disease or cancer.
-
-        The downside: Because vegan diets eliminate animal foods completely, they may be low in several nutrients, including vitamin B12, vitamin D, iodine, iron, calcium, zinc, and omega-3 fatty acids.
+        Vegan
 
     </string>
 
     <string name="keto_description">
-        From "Healthline.com"
-
-        The ketogenic diet is a very low-carb, high-fat diet that shares many similarities with the Atkins and low-carb diets.
-
-        It involves drastically reducing carbohydrate intake and replacing it with fat. This reduction in carbs puts your body into a metabolic state called ketosis.
-
-        When this happens, your body becomes incredibly efficient at burning fat for energy. It also turns fat into ketones in the liver, which can supply energy for the brain.
-
-        Ketogenic diets can cause massive reductions in blood sugar and insulin levels. This, along with the increased ketones, has numerous health benefits.
-
-
-        --------
-
-        There are several versions of the ketogenic diet, including:
-
-        Standard ketogenic diet (SKD): This is a very low-carb, moderate-protein and high-fat diet. It typically contains 75% fat, 20% protein and only 5% carbs (1Trusted Source).
-        Cyclical ketogenic diet (CKD): This diet involves periods of higher-carb refeeds, such as 5 ketogenic days followed by 2 high-carb days.
-        Targeted ketogenic diet (TKD): This diet allows you to add carbs around workouts.
-        High-protein ketogenic diet: This is similar to a standard ketogenic diet, but includes more protein. The ratio is often 60% fat, 35% protein and 5% carbs.
-
-        However, only the standard and high-protein ketogenic diets have been studied extensively. Cyclical or targeted ketogenic diets are more advanced methods and primarily used by bodybuilders or athletes.
+        Keto
 
     </string>
 
     <string name="dukan_description">
-        From "Healthline.com"
-
-
-        The Dukan diet is a high-protein, low-carb weight loss diet split into four phases — two weight loss phases and two maintenance phases.
-
-        How long you stay in each phase depends on how much weight you need to lose. Each phase has its own dietary pattern.
-
-        How it works: The weight loss phases are primarily based on eating unlimited high-protein foods and mandatory oat bran.
-
-        The other phases involve adding non-starchy vegetables followed by some carbs and fat. Later on, there will be fewer and fewer pure protein days to maintain your new weight.
-
-        Weight loss: In one study, women following the Dukan diet ate about 1,000 calories and 100 grams of protein per day and lost an average of 33 pounds (15 kg) in 8–10 weeks.
-
-        Also, many other studies show that high-protein, low-carb diets may have major weight loss benefits.
-
-        These include a higher metabolic rate, a decrease in the hunger hormone ghrelin and an increase in several fullness hormones.
-
-        Other benefits: Apart from weight loss, there are no recorded benefits of the Dukan diet in scientific literature.
-
-        The downside: There is very little quality research available on the Dukan diet.
-
-        The Dukan diet limits both fat and carbs — a strategy not based on science. On the contrary, consuming fat as part of a high-protein diet seems to increase metabolic rate compared to both low-carb and low-fat diets.
-
-        What’s more, fast weight loss achieved by severe calorie restriction tends to cause significant muscle loss.
-
-        The loss of muscle mass and severe calorie restriction may also cause your body to conserve energy, making it very easy to regain the weight after losing it.
+        Dukan
 
     </string>
 
     <string name="hcg_description">
-        From "Healthline.com"
-
-
-        The HCG diet is an extreme diet meant to cause very fast weight loss of up to 1–2 pounds (0.45–1 kg) per day.
-
-        Its proponents claim that it boosts metabolism and fat loss without inducing hunger.
-
-        HCG (human chorionic gonadotropin) is a hormone present at high levels during early pregnancy.
-
-        It tells a woman\'s body it\'s pregnant and maintains the production of hormones that are important for fetal development. It has also been used to treat fertility issues (84Trusted Source).
-
-        How it works: The diet is split into three phases. During the first phase, you begin taking HCG supplements.
-
-        During the second phase, you follow an ultra-low-calorie diet of only 500 calories per day, along with HCG supplement drops, pellets, injections, or sprays. The weight loss phase is prescribed for 3–6 weeks at a time.
-
-        In the third phase, you stop taking HCG and slowly increase your food intake.
-
-        Weight loss: The HCG diet does cause weight loss, but multiple studies conclude that the weight loss is due to the ultra-low-calorie diet alone — not the HCG hormone.
-
-        Furthermore, HCG was not found to reduce hunger.
-
-        Other benefits: Aside from weight loss, there are no documented benefits of the HCG diet.
-
-        The downside: Like most other ultra-low-calorie diets, the HCG diet may cause muscle loss, which results in a reduced ability to burn calories.
-
-        Such severe calorie restriction further reduces the number of calories your body burns. This is because your body thinks it's starving and therefore attempts to preserve energy.
-
-        In addition, most HCG products on the market are scams and don't contain any HCG. Only injections are able to raise blood levels of this hormone.
-
-        Moreover, the diet has many side effects, including headaches, fatigue, and depression. There is also one report of a woman developing blood clots, most likely caused by the diet.
-
-        The FDA disapproves of this diet, labeling it dangerous, illegal, and fraudulent.
+        HCG
 
     </string>
 
     <string name="zone_description">
-        From "Healthline.com"
-
-        The Zone Diet is a low-glycemic load diet that has you limit carbs to 35–45% of daily calories and protein and fat to 30% each (89Trusted Source).
-
-        It recommends eating only carbs with a low glycemic index (GI).
-
-        The GI of a food is an estimate of how much it raises your blood glucose levels after consumption.
-
-        The Zone Diet was initially developed to reduce diet-induced inflammation, cause weight loss, and reduce your risk of chronic diseases (89Trusted Source).
-
-        How it works: The Zone Diet recommends balancing each meal with 1/3 protein, 2/3 colorful fruits and veggies, and a dash of fat — namely monounsaturated oil, such as olive oil, avocado, or almonds.
-
-        It also limits high-GI carbs, such as bananas, rice, and potatoes.
-
-        Weight loss: Studies on low-GI diets are rather inconsistent. While some say that the diet promotes weight loss and reduces appetite, others show very little weight loss compared to other diets (90Trusted Source, 91Trusted Source, 92Trusted Source, 93Trusted Source).
-
-        Other benefits: The greatest benefit of this diet is a reduction in risk factors for heart disease, such as reduced cholesterol and triglycerides (92Trusted Source, 94Trusted Source, 95Trusted Source, 96Trusted Source, 97Trusted Source).
-
-        One study suggests that the Zone Diet may improve blood sugar control, reduce waist circumference, and lower chronic inflammation in overweight or obese individuals with type 2 diabetes (98Trusted Source).
-
-        The downside: One of the few drawbacks of this diet is that it limits the consumption of some healthy carb sources, such as bananas and potatoes.
+        Zone
 
     </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

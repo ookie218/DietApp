@@ -11,9 +11,8 @@ public class Diet {
     //Description is an integer - will be an XML reference
     private int mDescription;
 
-    /*CONSTRUCTORS
-        Name must be available!
-    */
+
+    //CONSTRUCTORS - Name must be available!
 
     //If only the title/name is available
     public Diet(String diet) {

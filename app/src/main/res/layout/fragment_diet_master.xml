@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:drawSelectorOnTop="true"
     android:orientation="vertical"
-    tools:context=".view.DietDetail">
+    tools:context=".view.DietMasterFragment">
 
-    <!--The List itself should take up entire screen -->
 
 </ListView>
