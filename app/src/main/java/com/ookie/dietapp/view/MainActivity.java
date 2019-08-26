@@ -23,11 +23,16 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(categoryAdapter);
 
+        /*
+        //Find Tab Layout
+        TabLayout tabLayout = findViewById(R.id.tabs);
+
+        tabLayout.setupWithViewPager(viewPager);
+        */
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
     }
-
 }
