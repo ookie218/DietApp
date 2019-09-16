@@ -57,10 +57,12 @@ public class DietMasterFragment extends Fragment {
                 String dietName = currentDiet.getDietName();
 
                 //Get Diet Photo *Convert to Bitmap, then Byte Array*
+/*
                 Bitmap bmp = BitmapFactory.decodeResource(getResources(), currentDiet.getImageResourceID());
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
                 bmp.compress(Bitmap.CompressFormat.PNG, 100, stream);
                 byte[] byteArray = stream.toByteArray();
+*/
 
                 //Passing in (int) since we are referencing xml
                 int dietDescription = currentDiet.getDescription();
@@ -69,7 +71,7 @@ public class DietMasterFragment extends Fragment {
                 Intent dietDetailIntent = new Intent(getContext(), DietDetail.class);
                 dietDetailIntent.setAction(Intent.ACTION_SEND_MULTIPLE);
                 dietDetailIntent.putExtra("Diet Name", dietName);
-                dietDetailIntent.putExtra("Diet Picture", byteArray);
+//              dietDetailIntent.putExtra("Diet Picture", byteArray);
                 dietDetailIntent.putExtra("Diet Description", dietDescription);
 
                 //Start activity with the new intent

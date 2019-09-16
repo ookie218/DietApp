@@ -16,32 +16,34 @@
     <string name="name_zone">Zone</string>
 
     <string name="paleo_description">
-        Paleo
+     paleo
 
     </string>
 
     <string name="vegan_description">
-        Vegan
+
 
     </string>
 
     <string name="keto_description">
-        Keto
+        keto
 
     </string>
 
     <string name="dukan_description">
-        Dukan
+    dukan
 
     </string>
 
     <string name="hcg_description">
-        HCG
+        hcg
+
 
     </string>
 
     <string name="zone_description">
-        Zone
+
+        zone
 
     </string>
 

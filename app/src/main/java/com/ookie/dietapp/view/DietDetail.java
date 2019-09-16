@@ -31,6 +31,7 @@ public class DietDetail extends AppCompatActivity {
         String dietDescription = getString(extraResourceId);
 
 
+/*
         //Extract Photo
         Bundle extras = getIntent().getExtras();
         byte[] byteArray = new byte[0];
@@ -40,6 +41,8 @@ public class DietDetail extends AppCompatActivity {
 
         Bitmap bmp = BitmapFactory.decodeByteArray(byteArray,0, byteArray.length);
         ImageView dietPhoto = findViewById(R.id.diet_image);
+*/
+
 
         //Placing the pieces
         TextView dietNamePlacement = findViewById(R.id.diet_name);
@@ -47,7 +50,7 @@ public class DietDetail extends AppCompatActivity {
 
         dietNamePlacement.setText(dietName);
         dietDescriptionPlacement.setText(dietDescription);
-        dietPhoto.setImageBitmap(bmp);
+//      dietPhoto.setImageBitmap(bmp);
 
 
     }
