@@ -18,32 +18,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new DietMasterFragment();
-        } if (position == 1) {
-            return new DietMasterFragment();
-        } if (position == 2) {
-            return new DietMasterFragment();
-        } else {
-            return new DietMasterFragment();
-        }
+        return new DietMasterFragment();
     }
 
+    //Since only one class being referenced, no swipe!
+    //Still using category adapter to show fragment on app start-up
     @Override
     public int getCount() {
-        return 4;
+        return 1;
     }
-/*
-    public CharSequence getPageTitle(int position){
-        if (position == 0) {
-            return mContext.getString(R.string.home_tab);
-        } if (position == 1) {
-            return mContext.getString(R.string.artist_tab);
-        } if (position == 2) {
-            return mContext.getString(R.string.media_tab);
-        } else {
-            return mContext.getString(R.string.contact_tab);
-        }
-    }
-*/
+
+
 }
