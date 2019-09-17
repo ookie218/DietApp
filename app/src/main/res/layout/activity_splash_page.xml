@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".view.SplashPage">
 
+
     <TextView
         android:id="@+id/splashPageText"
         android:layout_width="wrap_content"

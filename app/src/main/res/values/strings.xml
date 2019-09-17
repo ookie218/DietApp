@@ -205,8 +205,14 @@
 
     </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text">
+        Thank you for using the &quot;Drown The Pounds&quot; application!
+
+        \n\n
+
+        Copyright &#169; 2019 Ookie Ebron, Inc
+
+    </string>
 
 
 </resources>
