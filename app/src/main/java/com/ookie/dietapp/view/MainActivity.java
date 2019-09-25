@@ -55,14 +55,16 @@ public class MainActivity extends AppCompatActivity {
 
         int id = item.getItemId();
 
-        if (id == R.id.community) {
+        if (id == R.id.signIn) {
+            Intent aboutIntent = new Intent(this, Login.class);
+            startActivity(aboutIntent);
+        } else if (id == R.id.community) {
 
         } else if (id == R.id.settings) {
 
         } else if (id == R.id.about) {
             Intent aboutIntent = new Intent(this, About.class);
             startActivity(aboutIntent);
-
         }
 
         return true;

@@ -3,4 +3,15 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="dark_blue">#3022AE</color>
+    <color name="purple">#c86dd7</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--These colors have hex of 8, usually linking to transparency
+    will see exemplified in edit texts backgrounds -->
+    <color name="Login_form_details">#ccffffff</color>
+    <color name="Login_form_details_Light">#1affffff</color>
+    <color name="Login_form_details_medium">#66ffffff</color>
+
 </resources>

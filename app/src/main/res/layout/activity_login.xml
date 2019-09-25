@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.Login">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/drown_those_pounds_logo"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Since using constraint layout - the width is 0dp and will be set using constraints -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et_bg"
+        android:hint="Email Address"
+        android:textColorHint="@color/Login_form_details"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        app:layout_constraintTop_toBottomOf="@id/icon"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:background="@drawable/et_bg"
+        android:hint="Password"
+        android:textColorHint="@color/Login_form_details"
+        android:padding="16dp"
+        android:drawableRight="@drawable/ic_eye"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Login Now"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_bg"
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@id/password"/>
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Remember Password?"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        android:layout_marginTop="16dp"/>
+
+    <View
+        android:id="@+id/footer_line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/continue_no_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/footer_line"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/facebook_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Facebook"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        app:layout_constraintBottom_toTopOf="@id/footer_line"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/facebook_icon"
+        android:drawableLeft="@drawable/facebook_icon"
+        android:drawablePadding="8dp"/>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@id/forgot_password"
+        app:layout_constraintBottom_toTopOf="@id/facebook_login"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toStartOf="@id/or"/>
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/line1"
+        app:layout_constraintTop_toTopOf="@id/line1"
+        app:layout_constraintEnd_toStartOf="@id/line2"
+        app:layout_constraintStart_toEndOf="@id/line1"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@id/or"
+        app:layout_constraintEnd_toEndOf="@id/guideline_right"
+        app:layout_constraintStart_toEndOf="@id/or"
+        app:layout_constraintTop_toTopOf="@id/or"/>
+
+
+</android.support.constraint.ConstraintLayout>
